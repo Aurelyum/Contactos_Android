@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Contactos_Android</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="fecha_de_nacimiento">Fecha de nacimiento</string>
+    <string name="telefono">Teléfono</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="descripcion_contacto">Descripción del contacto</string>
+    <string name="boton_siguiente">Siguiente</string>
+    <string name="lbl_confirmar_datos">Confirmar Datos</string>
+    <string name="noton_editar_datos">Editar datos</string>
+</resources>

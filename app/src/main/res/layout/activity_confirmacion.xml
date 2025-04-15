@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".ConfirmacionActivity">
+
+    <TextView
+        android:id="@+id/tvTituloConfirmacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/lbl_confirmar_datos"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvNombreConfirmacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"
+        tools:text="Lorena Fernández López" /> <TextView
+    android:id="@+id/tvFechaConfirmacion"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:layout_marginBottom="12dp"
+    tools:text="Fecha Nacimiento: 12/12/1987" />
+
+    <TextView
+        android:id="@+id/tvTelefonoConfirmacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"
+        tools:text="Tel. 55553333" />
+
+    <TextView
+        android:id="@+id/tvEmailConfirmacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"
+        tools:text="Email: lorena@gmail.com" />
+
+    <TextView
+        android:id="@+id/tvDescripcionConfirmacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"
+        tools:text="Descripción: Conocí a Lorena en el Restaurante..." />
+
+    <Button
+        android:id="@+id/btnEditarDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/noton_editar_datos" />
+
+</LinearLayout>
